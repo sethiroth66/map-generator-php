@@ -1,0 +1,29 @@
+{
+    "name": "sethiroth66/map-generator-php",
+    "description": "Generate an island map image using PerlinNoise and gradient softening.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sethiroth66\\MapGeneratorPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Seth Wain",
+            "role": "Developer",
+            "email": "sethiroth66@gmail.com",
+            "homepage": "https://github.com/sethiroth66"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    },
+    "require": {
+        "a1essandro/perlin-noise": "^1.2",
+        "ext-gd": "*"
+    }
+}
